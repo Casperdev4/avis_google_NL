@@ -34,57 +34,231 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://recensie-kopen.nl/"},
-            {"@type": "ListItem", "position": 2, "name": "Google Recensies Hotel", "item": "https://recensie-kopen.nl/google-recensies-hotel.html"}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Recensie Kopen",
-        "url": "https://recensie-kopen.nl",
-        "logo": "https://recensie-kopen.nl/recensie-kopen-logo.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Onze diensten",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Google Recensies Kopen Hotel",
-                        "url": "https://recensie-kopen.nl/google-recensies-hotel.html"
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://recensie-kopen.nl/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Google Recensies Hotel",
+                        "item": "https://recensie-kopen.nl/google-recensies-hotel.html"
                     }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "name": "Recensie Kopen",
+                "url": "https://recensie-kopen.nl",
+                "logo": "https://recensie-kopen.nl/recensie-kopen-logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Onze diensten",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "google recensies kopen hotel",
+                                "url": "https://recensie-kopen.nl/google-recensies-hotel.html"
+                            }
+                        }
+                    ]
                 }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {"@type": "Question","name": "Vermelden de Google recensies voor hotels de kamers en de service?","acceptedAnswer": {"@type": "Answer","text": "Ja, elke recensie wordt op maat geschreven met vermelding van de netheid van de kamers, de kwaliteit van de ontvangst, het ontbijt, de locatie en het algemene comfort van uw accommodatie."}},
-            {"@type": "Question","name": "Hoeveel Google recensies heeft een hotel nodig om vertrouwen te wekken?","acceptedAnswer": {"@type": "Answer","text": "Een hotel heeft minimaal 50 tot 100 recensies nodig om geloofwaardig over te komen. Reizigers vergelijken systematisch meerdere accommodaties en geven de voorkeur aan die met het grootste aantal positieve recensies."}},
-            {"@type": "Question","name": "Zijn Google recensies net zo belangrijk als Booking of TripAdvisor?","acceptedAnswer": {"@type": "Answer","text": "Absoluut. Google is het eerste platform dat wordt geraadpleegd voor een boeking. Veel reizigers controleren de Google-beoordeling, zelfs wanneer ze via andere platforms boeken."}},
-            {"@type": "Question","name": "Kunnen Google recensies voor meerdere hotels gekocht worden?","acceptedAnswer": {"@type": "Answer","text": "Ja, wij beheren bestellingen voor meerdere vestigingen. Neem contact met ons op via WhatsApp na uw bestelling om de verschillende Google-profielen aan te geven."}}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Onze Aanbiedingen Positieve Recensies",
-        "itemListElement": [
-            {"@type": "ListItem","position": 1,"item": {"@type": "Product","name": "25 Positieve Recensies + 5 gratis","description": "Pakket van 25 positieve Google recensies met Nederlandse accounts, gepersonaliseerde teksten, levenslange garantie en 24/7 klantenservice.","image": "https://recensie-kopen.nl/recensie-kopen-logo.png","offers": {"@type": "Offer","price": "99","priceCurrency": "EUR","availability": "https://schema.org/InStock","shippingDetails": {"@type": "OfferShippingDetails","shippingRate": {"@type": "MonetaryAmount","value": "0","currency": "EUR"},"deliveryTime": {"@type": "ShippingDeliveryTime","handlingTime": {"@type": "QuantitativeValue","minValue": 1,"maxValue": 2,"unitCode": "DAY"},"transitTime": {"@type": "QuantitativeValue","minValue": 12,"maxValue": 30,"unitCode": "DAY"}},"shippingDestination": {"@type": "DefinedRegion","addressCountry": "NL"}},"hasMerchantReturnPolicy": {"@type": "MerchantReturnPolicy","applicableCountry": "NL","returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"}}}},
-            {"@type": "ListItem","position": 2,"item": {"@type": "Product","name": "50 Positieve Recensies + 10 gratis","description": "Pakket van 50 positieve Google recensies met Nederlandse accounts, gepersonaliseerde teksten, levenslange garantie en 24/7 klantenservice.","image": "https://recensie-kopen.nl/recensie-kopen-logo.png","offers": {"@type": "Offer","price": "169","priceCurrency": "EUR","availability": "https://schema.org/InStock","shippingDetails": {"@type": "OfferShippingDetails","shippingRate": {"@type": "MonetaryAmount","value": "0","currency": "EUR"},"deliveryTime": {"@type": "ShippingDeliveryTime","handlingTime": {"@type": "QuantitativeValue","minValue": 1,"maxValue": 2,"unitCode": "DAY"},"transitTime": {"@type": "QuantitativeValue","minValue": 25,"maxValue": 60,"unitCode": "DAY"}},"shippingDestination": {"@type": "DefinedRegion","addressCountry": "NL"}},"hasMerchantReturnPolicy": {"@type": "MerchantReturnPolicy","applicableCountry": "NL","returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"}}}},
-            {"@type": "ListItem","position": 3,"item": {"@type": "Product","name": "100 Positieve Recensies + 20 gratis","description": "Pakket van 100 positieve Google recensies met Nederlandse accounts, gepersonaliseerde teksten, levenslange garantie en 24/7 klantenservice.","image": "https://recensie-kopen.nl/recensie-kopen-logo.png","offers": {"@type": "Offer","price": "239","priceCurrency": "EUR","availability": "https://schema.org/InStock","shippingDetails": {"@type": "OfferShippingDetails","shippingRate": {"@type": "MonetaryAmount","value": "0","currency": "EUR"},"deliveryTime": {"@type": "ShippingDeliveryTime","handlingTime": {"@type": "QuantitativeValue","minValue": 1,"maxValue": 2,"unitCode": "DAY"},"transitTime": {"@type": "QuantitativeValue","minValue": 50,"maxValue": 120,"unitCode": "DAY"}},"shippingDestination": {"@type": "DefinedRegion","addressCountry": "NL"}},"hasMerchantReturnPolicy": {"@type": "MerchantReturnPolicy","applicableCountry": "NL","returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"}}}}
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Vermelden de Google recensies voor hotels de kamers en de service?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Ja, elke recensie wordt op maat geschreven met vermelding van de netheid van de kamers, de kwaliteit van de ontvangst, het ontbijt, de locatie en het algemene comfort van uw accommodatie."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Hoeveel Google recensies heeft een hotel nodig om vertrouwen te wekken?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Een hotel heeft minimaal 50 tot 100 recensies nodig om geloofwaardig over te komen. Reizigers vergelijken systematisch meerdere accommodaties en geven de voorkeur aan die met het grootste aantal positieve recensies."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Zijn Google recensies net zo belangrijk als Booking of TripAdvisor?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Absoluut. Google is het eerste platform dat wordt geraadpleegd voor een boeking. Veel reizigers controleren de Google-beoordeling, zelfs wanneer ze via andere platforms boeken."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Kunnen Google recensies voor meerdere hotels gekocht worden?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Ja, wij beheren bestellingen voor meerdere vestigingen. Neem contact met ons op via WhatsApp na uw bestelling om de verschillende Google-profielen aan te geven."
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "ItemList",
+                "name": "Onze Aanbiedingen Positieve Recensies",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Positieve Recensies + 5 gratis",
+                            "description": "Pakket van 25 positieve Google recensies met Nederlandse accounts, gepersonaliseerde teksten, levenslange garantie en 24/7 klantenservice.",
+                            "image": "https://recensie-kopen.nl/recensie-kopen-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "99",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 12,
+                                            "maxValue": 30,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "NL"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "NL",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Positieve Recensies + 10 gratis",
+                            "description": "Pakket van 50 positieve Google recensies met Nederlandse accounts, gepersonaliseerde teksten, levenslange garantie en 24/7 klantenservice.",
+                            "image": "https://recensie-kopen.nl/recensie-kopen-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "169",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 25,
+                                            "maxValue": 60,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "NL"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "NL",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Positieve Recensies + 20 gratis",
+                            "description": "Pakket van 100 positieve Google recensies met Nederlandse accounts, gepersonaliseerde teksten, levenslange garantie en 24/7 klantenservice.",
+                            "image": "https://recensie-kopen.nl/recensie-kopen-logo.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "279",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 50,
+                                            "maxValue": 120,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "NL"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "NL",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
         ]
     }
     </script>
